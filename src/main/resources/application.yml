@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: reactive-app
+  r2dbc:
+    #url: r2dbc:mssql://localhost:1433/reactiveapp
+    username: sa
+    password: sasa
+    #initialization-mode: always
+
+server:
+  port: 8099
